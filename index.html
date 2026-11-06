@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad | LUNÉA by MIDNIGHT</title>
+  <meta name="description" content="Política de privacidad oficial de la aplicación móvil LUNÉA by MIDNIGHT para Google Play Console.">
+  <style>
+    /* ==========================================================================
+       LUNÉA by MIDNIGHT — Estilos de la Política de Privacidad Oficial
+       Paleta: Violeta nocturno, rosa suave, dorado literario y crema lunar.
+       Diseño: 100% autónomo, responsive, sin fuentes externas ni trackers.
+       ========================================================================== */
+    :root {
+      --bg-dark: #110B1A;
+      --bg-card: #1C1328;
+      --bg-card-alt: #241935;
+      --border-color: rgba(224, 138, 176, 0.22);
+      --border-gold: rgba(212, 175, 55, 0.35);
+      --gold-primary: #D4AF37;
+      --gold-light: #E6C96C;
+      --rose-soft: #E08AB0;
+      --rose-dusty: #C78B99;
+      --rose-light: #F2D2DE;
+      --cream-text: #FAF6F0;
+      --cream-muted: #D9CECA;
+      --tag-bg: rgba(224, 138, 176, 0.12);
+      --alert-bg: rgba(212, 175, 55, 0.1);
+      --font-serif: Georgia, "Times New Roman", Cambria, serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--cream-text);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 60px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Encabezado Principal */
+    header {
+      text-align: center;
+      padding: 40px 16px 32px 16px;
+      border-bottom: 1px solid var(--border-gold);
+      margin-bottom: 32px;
+      position: relative;
+    }
+
+    .emblem {
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    .emblem svg {
+      width: 48px;
+      height: 48px;
+      fill: none;
+      stroke: var(--gold-primary);
+      stroke-width: 1.6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: var(--rose-soft);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .brand-subtitle {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold-primary);
+      margin-bottom: 16px;
+    }
+
+    .doc-title {
+      font-size: 1.35rem;
+      color: var(--cream-text);
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .meta-date {
+      font-size: 0.85rem;
+      color: var(--rose-dusty);
+      letter-spacing: 0.05em;
+    }
+
+    /* Índice de Navegación */
+    .nav-index {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+    }
+
+    .nav-index h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--gold-light);
+      margin-bottom: 12px;
+    }
+
+    .nav-index ol {
+      padding-left: 20px;
+      color: var(--cream-muted);
+      font-size: 0.92rem;
+    }
+
+    .nav-index li {
+      margin-bottom: 6px;
+    }
+
+    .nav-index a {
+      color: var(--rose-soft);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .nav-index a:hover {
+      color: var(--gold-light);
+      text-decoration: underline;
+    }
+
+    /* Secciones de Contenido */
+    section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 32px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    h2 {
+      font-family: var(--font-serif);
+      font-size: 1.45rem;
+      color: var(--rose-soft);
+      border-bottom: 1px solid rgba(224, 138, 176, 0.15);
+      padding-bottom: 10px;
+      margin-bottom: 18px;
+      letter-spacing: 0.02em;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      color: var(--gold-light);
+      margin: 22px 0 10px 0;
+      font-weight: 600;
+    }
+
+    p {
+      color: var(--cream-muted);
+      margin-bottom: 14px;
+      font-size: 0.98rem;
+    }
+
+    ul, ol {
+      padding-left: 24px;
+      margin-bottom: 16px;
+      color: var(--cream-muted);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--cream-text);
+      font-weight: 600;
+    }
+
+    /* Cajas Destacadas y Alertas */
+    .highlight-box {
+      background: var(--bg-card-alt);
+      border-left: 4px solid var(--rose-soft);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+      color: var(--cream-text);
+    }
+
+    .alert-gold {
+      background: var(--alert-bg);
+      border: 1px solid var(--border-gold);
+      border-left: 4px solid var(--gold-primary);
+      padding: 18px 22px;
+      border-radius: 8px;
+      margin: 20px 0;
+      color: var(--cream-text);
+    }
+
+    .alert-gold strong {
+      color: var(--gold-light);
+    }
+
+    /* Tablas adaptables */
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 20px 0;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background-color: var(--bg-card-alt);
+      color: var(--gold-light);
+      padding: 12px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(224, 138, 176, 0.1);
+      color: var(--cream-muted);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Enlaces */
+    a.contact-link {
+      color: var(--gold-light);
+      text-decoration: underline;
+      word-break: break-all;
+    }
+
+    a.contact-link:hover {
+      color: var(--rose-soft);
+    }
+
+    /* Pie de página */
+    footer {
+      text-align: center;
+      padding: 36px 16px 20px 16px;
+      color: var(--rose-dusty);
+      font-size: 0.88rem;
+      border-top: 1px solid var(--border-color);
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin-bottom: 6px;
+      color: var(--rose-dusty);
+    }
+
+    /* Responsive */
+    @media (max-width: 680px) {
+      body {
+        padding: 16px 10px 40px 10px;
+      }
+      header {
+        padding: 24px 8px 20px 8px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      section {
+        padding: 22px 18px;
+      }
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Encabezado de Identidad -->
+    <header>
+      <div class="emblem" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          <polygon points="12 2 13.5 5 16.5 5 14 7.5 15 10.5 12 8.5 9 10.5 10 7.5 7.5 5 10.5 5 12 2" stroke-width="1.2"></polygon>
+        </svg>
+      </div>
+      <h1>LUNÉA</h1>
+      <div class="brand-subtitle">BY MIDNIGHT</div>
+      <div class="doc-title">Política de Privacidad Oficial</div>
+      <div class="meta-date">Aplicación móvil para Android (com.midnight.lunea) &bull; Versión vigente: Noviembre 2026</div>
+    </header>
+
+    <!-- Índice Rápido -->
+    <nav class="nav-index" aria-label="Índice de la Política de Privacidad">
+      <h2>Índice de Contenido</h2>
+      <ol>
+        <li><a href="#responsable">Identificación y Contacto</a></li>
+        <li><a href="#datos">Datos Personales que Recopilamos</a></li>
+        <li><a href="#finalidades">Finalidades del Tratamiento</a></li>
+        <li><a href="#servicios">Proveedores de Servicios y Tecnología</a></li>
+        <li><a href="#seguridad">Seguridad y Medidas Criptográficas</a></li>
+        <li><a href="#conservacion">Conservación y Almacenamiento</a></li>
+        <li><a href="#eliminacion">Eliminación de Cuentas y Solicitudes de Borrado</a></li>
+        <li><a href="#suscripciones">Gestión de la Suscripción Google Play</a></li>
+        <li><a href="#menores">Público Objetivo y Menores de Edad</a></li>
+        <li><a href="#derechos">Tus Derechos y Contacto</a></li>
+      </ol>
+    </nav>
+
+    <!-- 1. Identificación y Contacto -->
+    <section id="responsable">
+      <h2>1. Identificación y Contacto</h2>
+      <p>
+        La presente Política de Privacidad describe el tratamiento de datos personales realizado a través de la aplicación móvil <strong>LUNÉA by MIDNIGHT</strong> (identificador de paquete Android: <code>com.midnight.lunea</code>), una plataforma editorial de historias, novelas serializadas y experiencias literarias inmersivas.
+      </p>
+      <div class="highlight-box">
+        <strong>Contacto oficial para temas de privacidad y protección de datos:</strong><br>
+        Correo electrónico: <a class="contact-link" href="mailto:officialmidnightgroup@gmail.com">officialmidnightgroup@gmail.com</a>
+      </div>
+      <p>
+        El acceso y uso de la aplicación implica la aceptación de esta Política de Privacidad. Si no estás de acuerdo con los términos aquí expuestos, te recomendamos no registrarte ni utilizar los servicios de LUNÉA.
+      </p>
+    </section>
+
+    <!-- 2. Datos Personales que Recopilamos -->
+    <section id="datos">
+      <h2>2. Datos Personales que Recopilamos</h2>
+      <p>
+        LUNÉA se rige bajo el principio estricto de <strong>minimización de datos</strong>. No recopilamos información personal innecesaria ni solicitamos accesos que no sean estrictamente imprescindibles para la lectura y narración de novelas.
+      </p>
+
+      <h3>A. Modo Invitado (Sin Cuenta)</h3>
+      <p>
+        LUNÉA permite explorar el catálogo y leer capítulos de libre acceso sin registrarse. En este modo:
+      </p>
+      <ul>
+        <li><strong>No recopilamos:</strong> Nombre, correo electrónico ni contraseña.</li>
+        <li><strong>Almacenamiento local temporal:</strong> Se crea un identificador técnico local en tu dispositivo para guardar tu progreso de lectura y configuración visual en la memoria del teléfono. Estos datos no se asocian a tu identidad real.</li>
+      </ul>
+
+      <h3>B. Cuentas Registradas</h3>
+      <p>
+        Cuando decides crear una cuenta permanente en LUNÉA, recopilamos y procesamos:
+      </p>
+      <ul>
+        <li><strong>Correo electrónico:</strong> Necesario para crear la cuenta, autenticar el inicio de sesión, recuperar contraseñas y vincular tus compras.</li>
+        <li><strong>Nombre para mostrar (Display Name):</strong> Opcional. Se utiliza únicamente para personalizar los saludos en la interfaz. Si no se indica uno, se genera automáticamente un nombre genérico (como «Lector LUNÉA»).</li>
+        <li><strong>Identificador de usuario único (User ID / UID):</strong> Código aleatorio generado por Firebase Authentication que actúa como identificador para enlazar tu biblioteca y tus compras de forma segura.</li>
+        <li><strong>Contraseña:</strong> Es procesada exclusivamente mediante algoritmos criptográficos irreversibles (hashing con salting) a través de los servidores seguros de Firebase Authentication. LUNÉA <strong>nunca</strong> tiene acceso ni almacena tu contraseña en texto legible.</li>
+      </ul>
+
+      <h3>C. Datos de Interacción y Lectura</h3>
+      <ul>
+        <li><strong>Progreso de lectura:</strong> Novela leída, capítulo actual, posición de lectura (porcentaje de desplazamiento), lista de capítulos completados y fecha de última lectura.</li>
+        <li><strong>Biblioteca personal y estanterías:</strong> Lista de novelas guardadas, favoritas y estantes de organización (<em>«Estoy leyendo»</em>, <em>«Quiero leer»</em>, <em>«Terminadas»</em>, <em>«Descargadas»</em>).</li>
+        <li><strong>Preferencias visuales:</strong> Tipografía elegida del sistema, tamaño de letra, interlineado, márgenes, brillo del lector y modo de fondo visual (crema, sepia, blanco, violeta nocturno o cielo estrellado).</li>
+        <li><strong>Preferencias sonoras:</strong> Volumen de música ambiental y efectos sonoros guardados localmente en tu dispositivo.</li>
+        <li><strong>Preferencia de idioma:</strong> Idioma seleccionado para la lectura de las obras disponibles.</li>
+      </ul>
+
+      <h3>D. Datos de Facturación y Suscripción</h3>
+      <p>
+        LUNÉA ofrece una suscripción mensual de tarifa plana (USD 14,99) que otorga acceso ilimitado a todo el catálogo.
+      </p>
+      <ul>
+        <li><strong>Datos de pago:</strong> <strong>LUNÉA NO recopila, no recibe ni almacena números de tarjeta de crédito, cuentas bancarias ni información de pago.</strong> Todas las transacciones monetarias son procesadas directamente por Google Play Billing bajo los estándares de seguridad de Google.</li>
+        <li><strong>Comprobante técnico:</strong> Recibimos de Google Play únicamente un token digital de compra (<em>purchaseToken</em>), el identificador de orden (<em>orderId</em>), el estado de la suscripción (activa, cancelada o vencida) y la fecha de expiración oficial.</li>
+      </ul>
+
+      <h3>E. Datos que NO Recopilamos</h3>
+      <div class="alert-gold">
+        <strong>Aclaración de Transparencia:</strong> Aunque la estructura interna de código pueda contemplar campos reservados para futuras ampliaciones, la aplicación actual <strong>NO recopila ni solicita:</strong>
+        <ul style="margin-top: 8px; margin-bottom: 0;">
+          <li>Fecha de nacimiento o edad.</li>
+          <li>Fotografías o imágenes de perfil (avatares).</li>
+          <li>Ubicación geográfica precisa o aproximada (GPS).</li>
+          <li>Contactos, agenda, mensajes ni llamadas.</li>
+          <li>Identificadores permanentes de hardware (IMEI, dirección MAC ni publicidad ID).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. Finalidades del Tratamiento -->
+    <section id="finalidades">
+      <h2>3. Finalidades del Tratamiento</h2>
+      <p>Los datos recopilados se destinan estrictamente a los siguientes fines:</p>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Dato</th>
+              <th>Finalidad Principal</th>
+              <th>Base de Tratamiento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Correo y Contraseña</strong></td>
+              <td>Autenticar tu cuenta, restablecer credenciales y proteger tu acceso.</td>
+              <td>Ejecución del servicio solicitado por el usuario.</td>
+            </tr>
+            <tr>
+              <td><strong>Progreso y Biblioteca</strong></td>
+              <td>Permitir reanudar la lectura y sincronizar tus libros guardados entre tus dispositivos.</td>
+              <td>Funcionalidad básica de la aplicación.</td>
+            </tr>
+            <tr>
+              <td><strong>Preferencias de Lectura</strong></td>
+              <td>Mantener tu comodidad visual y acústica en cada sesión de lectura.</td>
+              <td>Personalización solicitada por el usuario.</td>
+            </tr>
+            <tr>
+              <td><strong>Tokens de Suscripción</strong></td>
+              <td>Validar que cuentas con una suscripción activa a LUNÉA Premium y habilitar el acceso a capítulos completos.</td>
+              <td>Cumplimiento del contrato de suscripción digital.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        <strong>Sin publicidad invasiva ni venta de datos:</strong> LUNÉA es una plataforma libre de anuncios comerciales. No vendemos, no comercializamos ni compartimos tus datos personales con redes publicitarias ni intermediarios de datos (<em>data brokers</em>).
+      </p>
+    </section>
+
+    <!-- 4. Proveedores de Servicios y Tecnología -->
+    <section id="servicios">
+      <h2>4. Proveedores de Servicios y Tecnología</h2>
+      <p>
+        Para operar de forma robusta y segura, LUNÉA utiliza la infraestructura técnica provista por <strong>Google LLC</strong>, distinguiendo claramente los servicios activos de aquellos en preparación:
+      </p>
+
+      <h3>Servicios Activos e Integrados:</h3>
+      <ul>
+        <li><strong>Firebase Authentication (Google LLC):</strong> Servicio encargado de la identificación de usuarios, cifrado de contraseñas y emisión de credenciales seguras.</li>
+        <li><strong>Cloud Firestore (Google LLC):</strong> Base de datos en la nube donde se sincronizan perfiles, biblioteca y progreso de lectura bajo reglas de acceso restringidas por usuario.</li>
+        <li><strong>Google Play Billing (Google LLC):</strong> Pasarela oficial para el procesamiento seguro de suscripciones recurrentes en dispositivos Android.</li>
+      </ul>
+
+      <h3>Servicios Previstos para Futura Implementación:</h3>
+      <ul>
+        <li><strong>Firebase Storage (Google LLC):</strong> Servicio previsto para una futura implementación para alojar y distribuir portadas de novelas y recursos multimedia en la nube. Actualmente no se encuentra habilitado en producción; las portadas y recursos de la app operan de forma local.</li>
+        <li><strong>Cloud Functions y Google Cloud Pub/Sub (Google LLC):</strong> Componentes de servidor en preparación diseñados para verificar comprobantes de compra en los servidores de Google Play y recibir notificaciones automáticas de renovación o cancelación (RTDN) en la nube.</li>
+      </ul>
+    </section>
+
+    <!-- 5. Seguridad y Medidas Criptográficas -->
+    <section id="seguridad">
+      <h2>5. Seguridad y Medidas Criptográficas</h2>
+      <p>
+        Implementamos estrictas medidas técnicas y organizativas para proteger la confidencialidad e integridad de tu información:
+      </p>
+      <ul>
+        <li><strong>Cifrado en tránsito:</strong> Todas las comunicaciones entre tu teléfono, los servidores de Firebase y Google Play viajan cifradas obligatoriamente mediante <strong>HTTPS / TLS</strong>.</li>
+        <li><strong>Cifrado de novelas descargadas:</strong> Cuando descargas obras para lectura sin conexión a internet, los archivos se cifran localmente mediante el hardware criptográfico de tu dispositivo utilizando <strong>Android KeyStore y el algoritmo AES-256-GCM</strong>. Si el dispositivo no cuenta con hardware seguro, la descarga protegida se bloquea para evitar almacenar textos en formatos vulnerables.</li>
+        <li><strong>Protección contra capturas de pantalla:</strong> Durante la lectura de capítulos, la aplicación activa la función de seguridad <code>FLAG_SECURE</code> del sistema operativo Android para mitigar capturas de pantalla o grabaciones no autorizadas.</li>
+        <li><strong>Integridad de datos:</strong> Las bases de datos locales incorporan algoritmos deterministas de comprobación de huella digital que invalidan cualquier intento de manipulación no autorizada del estado de las suscripciones.</li>
+      </ul>
+    </section>
+
+    <!-- 6. Conservación y Almacenamiento -->
+    <section id="conservacion">
+      <h2>6. Conservación y Almacenamiento</h2>
+      <p>
+        Los datos se almacenan en la memoria local de tu dispositivo móvil y en servidores de Google Cloud / Firebase ubicados en Estados Unidos.
+      </p>
+      <div class="alert-gold">
+        <strong>Plazos de Conservación Técnicamente Verificados:</strong>
+        <p style="margin-top: 8px; margin-bottom: 0;">
+          LUNÉA no aplica una fecha de caducidad automática temporal a las cuentas de usuario. Tus datos (perfil, progreso y biblioteca) se conservan mientras mantengas tu cuenta activa para permitir la continuidad de tus lecturas. Los registros de compras previas se conservan en el servidor para prevención de fraude, anti-reutilización de recibos y cumplimiento contable.
+        </p>
+      </div>
+      <p>
+        <strong>Cierre de sesión:</strong> Al cerrar sesión en la aplicación, se limpian las memorias intermedias y cachés activas de lectura y se detiene la reproducción de audio. El usuario pasa al Modo Invitado y las descargas cifradas permanecen protegidas en el dispositivo sin ser accesibles por terceros.
+      </p>
+    </section>
+
+    <!-- 7. Eliminación de Cuentas y Solicitudes de Borrado -->
+    <section id="eliminacion">
+      <h2>7. Eliminación de Cuentas y Solicitudes de Borrado</h2>
+      <p>
+        En cumplimiento con las políticas de Google Play y la normativa de protección de datos, dispones de mecanismos directos para solicitar y ejecutar la eliminación de tu cuenta:
+      </p>
+
+      <h3>A. Eliminación Directa desde la Aplicación</h3>
+      <p>
+        Puedes iniciar la eliminación de tu cuenta en cualquier momento desde la app:
+      </p>
+      <ol>
+        <li>Abre la aplicación <strong>LUNÉA</strong> y dirígete a la pestaña <strong>Perfil</strong>.</li>
+        <li>Desplázate hasta la sección de seguridad y pulsa <strong>«Eliminar Cuenta»</strong>.</li>
+        <li>Lee atentamente la advertencia y confirma tu decisión.</li>
+        <li>Por motivos de seguridad, ingresa tu contraseña actual para reautenticar la operación.</li>
+      </ol>
+      <div class="highlight-box">
+        <strong>Alcance de la eliminación en la aplicación:</strong><br>
+        Al confirmar la eliminación en la app, se destruyen de inmediato las descargas cifradas y claves almacenadas localmente en tu dispositivo, y se elimina tu usuario en Firebase Authentication junto con el documento raíz de tu perfil en Cloud Firestore.
+      </div>
+      <div class="alert-gold">
+        <strong>Aclaración técnica sobre datos en la nube:</strong>
+        <p style="margin-top: 8px; margin-bottom: 0;">
+          La eliminación efectuada desde la aplicación borra tu cuenta y tu perfil principal, pero <strong>no ejecuta todavía una eliminación automática y completa de todas las subcolecciones históricas asociadas en la base de datos</strong> (tales como registros desglosados de progreso de lectura o estanterías), dado que el procedimiento técnico de purga recursiva en servidor se encuentra en fase de desarrollo y verificación. Si deseas cerciorarte de la eliminación total, definitiva e integral de cualquier registro residual en la nube, puedes requerirlo mediante el canal de soporte por correo electrónico detallado a continuación.
+        </p>
+      </div>
+
+      <h3>B. Solicitud Externa de Eliminación de Datos (Vía Correo Electrónico)</h3>
+      <p>
+        Si has desinstalado la aplicación, no puedes acceder a tu teléfono o prefieres solicitar la eliminación de forma remota, puedes solicitarla por correo electrónico:
+      </p>
+      <div class="alert-gold">
+        <strong>Procedimiento de Solicitud Externa:</strong>
+        <ol style="margin-top: 10px; margin-bottom: 0;">
+          <li>Envía un correo electrónico a: <a class="contact-link" href="mailto:officialmidnightgroup@gmail.com">officialmidnightgroup@gmail.com</a>.</li>
+          <li>Asunto del mensaje: <code>Eliminación de Cuenta y Datos Personales - LUNÉA</code>.</li>
+          <li><strong>Requisito indispensable:</strong> El correo debe ser enviado desde la <strong>misma dirección de correo electrónico registrada</strong> en tu cuenta de LUNÉA para poder acreditar tu titularidad.</li>
+          <li>En el cuerpo del mensaje, indica tu deseo expreso de eliminar tu cuenta y purgar tus registros de lectura.</li>
+        </ol>
+      </div>
+      <p>
+        Una vez recibida la solicitud y verificada fehacientemente tu identidad como titular de la cuenta, la petición será atendida y procesada conforme a los plazos y procedimientos previstos por la legislación de protección de datos aplicable, informándote de la resolución por correo electrónico.
+      </p>
+    </section>
+
+    <!-- 8. Gestión de la Suscripción Google Play -->
+    <section id="suscripciones">
+      <h2>8. Gestión y Cancelación de la Suscripción Mensual</h2>
+      <p>
+        La suscripción a LUNÉA Premium se adquiere a través de Google Play Store. Por exigencias de seguridad de la plataforma Android:
+      </p>
+      <ul>
+        <li><strong>Eliminar tu cuenta en la app NO cancela automáticamente los cobros en Google Play.</strong> Debes cancelar la suscripción directamente en tu cuenta de Google.</li>
+        <li><strong>Cómo cancelar la renovación automática:</strong>
+          <ol style="margin-top: 8px;">
+            <li>Abre la app de <strong>Google Play Store</strong> en tu dispositivo Android.</li>
+            <li>Toca el icono de tu perfil en la esquina superior derecha.</li>
+            <li>Selecciona <strong>Pagos y suscripciones</strong> &gt; <strong>Suscripciones</strong>.</li>
+            <li>Busca y pulsa sobre <strong>LUNÉA by MIDNIGHT</strong>.</li>
+            <li>Selecciona <strong>Cancelar suscripción</strong> y sigue las instrucciones en pantalla.</li>
+          </ol>
+        </li>
+        <li><strong>Conservación del período abonado:</strong> Si cancelas la suscripción, continuarás disfrutando del acceso ilimitado a LUNÉA Premium hasta la fecha de finalización del ciclo mensual ya pagado. Al vencer dicha fecha, no se realizarán nuevos cargos.</li>
+      </ul>
+    </section>
+
+    <!-- 9. Público Objetivo y Menores de Edad -->
+    <section id="menores">
+      <h2>9. Público Objetivo y Menores de Edad</h2>
+      <p>
+        LUNÉA by MIDNIGHT publica narrativas literarias de romance, fantasía y suspenso diseñadas para un <strong>público adulto y juvenil maduro (18 años o más)</strong>.
+      </p>
+      <p>
+        No dirigimos nuestros servicios ni recopilamos deliberadamente información personal de niños o menores de 13 años. Si tienes conocimiento de que un menor de 13 años ha creado una cuenta o nos ha proporcionado sus datos personales sin el consentimiento de sus tutores legales, por favor contáctanos de inmediato a <a class="contact-link" href="mailto:officialmidnightgroup@gmail.com">officialmidnightgroup@gmail.com</a> para proceder a su pronta eliminación.
+      </p>
+    </section>
+
+    <!-- 10. Tus Derechos y Contacto -->
+    <section id="derechos">
+      <h2>10. Tus Derechos y Contacto</h2>
+      <p>
+        De acuerdo con la legislación de protección de datos aplicable, dispones de los siguientes derechos respecto a tu información personal:
+      </p>
+      <ul>
+        <li><strong>Derecho de Acceso:</strong> Conocer qué datos personales tenemos sobre ti.</li>
+        <li><strong>Derecho de Rectificación:</strong> Solicitar la corrección de datos incompletos o desactualizados.</li>
+        <li><strong>Derecho de Supresión:</strong> Solicitar la eliminación de tus datos personales.</li>
+        <li><strong>Derecho de Oposición:</strong> Oponerte al tratamiento de tus datos para finalidades específicas.</li>
+      </ul>
+      <p>
+        Para ejercer cualquiera de estos derechos o realizar consultas sobre este documento, ponte en contacto con nuestro equipo oficial:
+      </p>
+      <div class="highlight-box" style="text-align: center;">
+        <span style="font-size: 1.1rem; color: var(--rose-soft); font-weight: 600;">LUNÉA by MIDNIGHT</span><br>
+        Correo electrónico: <a class="contact-link" href="mailto:officialmidnightgroup@gmail.com">officialmidnightgroup@gmail.com</a>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--rose-dusty); margin-top: 14px;">
+        Nos reservamos el derecho de actualizar esta Política de Privacidad para reflejar cambios normativos o nuevas funcionalidades de la aplicación. Cualquier modificación sustancial será informada a través de la aplicación o en esta misma página web.
+      </p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2026 LUNÉA by MIDNIGHT. Todos los derechos reservados.</p>
+      <p>Historias para leer, escuchar y sentir.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
